@@ -1,4 +1,4 @@
-TARGETS := semaphores bindtextdomain
+TARGETS := semaphores bindtextdomain chromium-content-api
 
 all:
 	$(foreach dir, $(TARGETS), $(MAKE) -C $(dir);)
