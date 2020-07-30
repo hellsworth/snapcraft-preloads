@@ -11,8 +11,8 @@ libpreload-semaphores.so: preload-semaphores.c
 		-o $@ -ldl
 
 install: libpreload-semaphores.so
-	install -D libpreload-semaphores.so ${DESTDIR}/libpreload-semaphores.so
+	install -D libpreload-semaphores.so ${DESTDIR}/lib/libpreload-semaphores.so
 
 clean:
 	rm -f \
-		./libpreload-semaphores.so
+		./lib/libpreload-semaphores.so
